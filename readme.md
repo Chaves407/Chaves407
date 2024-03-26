@@ -1,3 +1,154 @@
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 0;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+body {
+    background-color: #020304;
+}
+
+.cabecalho {
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-cabecalho {
+    font-size: 22px;
+}
+
+.cabecalho-bar {
+    margin: 0 15px;
+    padding: 5px;
+    transition: color 0.3s; 
+    color: #fff;
+}
+
+.cabecalho-bar:hover {
+    color: #00ff37;
+}
+
+.container {
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > section {
+    width: 80%;
+    margin-bottom: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about-me h1,
+.sobre h1,
+.habilidades h1 {
+    margin-bottom: 20px;
+}
+
+.ul {
+    padding: 10px;
+}
+
+.button {
+    background-color: #32cd32;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #4ab64a;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+strong {
+    color: #32cd32;
+}
+
+footer {
+    background-color: #020304;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+}
+
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <main class="container">
+
+        <section class="sobre">
+            <h1>Sobre Leonardo</h1>
+            <p>Olá! 👋 Eu sou Leonardo, um desenvolvedor full stack apaixonado por tecnologia, com 21 anos de idade e uma sede insaciável de aprendizado e inovação.</p>
+        </section>
+
+        <section class="about-me">
+            <h1>Informações sobre mim</h1>
+            <ul class="ul">
+                <li><strong>Nome:</strong> Leonardo Gomes da Silva</li>
+                <li><strong>Idade:</strong> 21 Anos</li>
+                <li><strong>Cidade:</strong> Jaraguá do Sul</li>
+                <li><strong>Profissão:</strong> Desenvolvedor Full Stack</li>
+            </ul>
+        </section>
+
+        <section class="habilidades">
+            <h1>Minhas Habilidades</h1>
+            <p>Como desenvolvedor full stack, possuo conhecimento tanto no desenvolvimento do front-end quanto no back-end de aplicações web. Aqui estão algumas das minhas habilidades:</p>
+            <ul class="habilidade">
+                <li>Front-end</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Frameworks como React.js</li>
+            </ul>
+        </section>
+        <section class="habilidades">
+            <h1>Contato</h1>
+            <p>Se você gostaria de entrar em contato comigo para discutir oportunidades de colaboração, trocar ideias ou apenas bater um papo sobre tecnologia...
+<br><br>
+                Vamos construir algo incrível juntos! 💻🚀</p>
+
+                <a class="button" href="">Meu contato</a>
+                <a class="button" href="">Discord</a>
+                <a class="button" href="">Instagram</a>
+        </section>
+    </main>
+
+    <footer>
+        Desenvolvido por: <a href="https://github.com/chaves407">Leonardo</a>
+    </footer>
+</body>
+</html>
+
+
+
+
+
 <h1>Sobre Leonardo</h1>
 <p>Olá! 👋 Eu sou Leonardo, um desenvolvedor full stack apaixonado por tecnologia, com 21 anos de idade e uma sede insaciável de aprendizado e inovação.</p>
 
